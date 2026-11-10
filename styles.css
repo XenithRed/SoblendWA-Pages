@@ -6,11 +6,11 @@
   --ink-soft: #5a574d;
   --ink-faint: #85816f;
   --line: #e3dfd2;
-  --accent: #b1502b;
-  --accent-soft: #f4e4da;
+  --accent: #c8102e;
+  --accent-soft: #fbe1e4;
   --code-bg: #f1eee4;
   --code-ink: #2b2925;
-  --token-keyword: #a23f1d;
+  --token-keyword: #b0122a;
   --token-string: #3f6b2f;
   --token-type: #7a4f9e;
   --token-number: #1f6f8b;
@@ -34,22 +34,22 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #1e1d1a;
-    --surface: #25241f;
-    --raised: #2b2a25;
-    --ink: #ece9df;
-    --ink-soft: #b3afa1;
-    --ink-faint: #8a8678;
-    --line: #38362e;
-    --accent: #e58f66;
-    --accent-soft: #3d2a20;
-    --code-bg: #171612;
-    --code-ink: #e6e2d6;
-    --token-keyword: #e8976f;
+    --paper: #0f0f11;
+    --surface: #17171a;
+    --raised: #1e1e22;
+    --ink: #ededf0;
+    --ink-soft: #b4b4bc;
+    --ink-faint: #85858f;
+    --line: #2b2b31;
+    --accent: #ff5a64;
+    --accent-soft: #3a1519;
+    --code-bg: #0a0a0c;
+    --code-ink: #e6e6ea;
+    --token-keyword: #ff7a82;
     --token-string: #a5c78f;
     --token-type: #c3a3e0;
     --token-number: #7fc4d8;
-    --token-comment: #7d7a6c;
+    --token-comment: #76767f;
     --token-function: #8db8e8;
     --ok: #93c89f;
     --ok-soft: #22332a;
@@ -63,22 +63,22 @@
 }
 
 :root[data-theme="dark"] {
-  --paper: #1e1d1a;
-  --surface: #25241f;
-  --raised: #2b2a25;
-  --ink: #ece9df;
-  --ink-soft: #b3afa1;
-  --ink-faint: #8a8678;
-  --line: #38362e;
-  --accent: #e58f66;
-  --accent-soft: #3d2a20;
-  --code-bg: #171612;
-  --code-ink: #e6e2d6;
-  --token-keyword: #e8976f;
+  --paper: #0f0f11;
+  --surface: #17171a;
+  --raised: #1e1e22;
+  --ink: #ededf0;
+  --ink-soft: #b4b4bc;
+  --ink-faint: #85858f;
+  --line: #2b2b31;
+  --accent: #ff5a64;
+  --accent-soft: #3a1519;
+  --code-bg: #0a0a0c;
+  --code-ink: #e6e6ea;
+  --token-keyword: #ff7a82;
   --token-string: #a5c78f;
   --token-type: #c3a3e0;
   --token-number: #7fc4d8;
-  --token-comment: #7d7a6c;
+  --token-comment: #76767f;
   --token-function: #8db8e8;
   --ok: #93c89f;
   --ok-soft: #22332a;
@@ -182,9 +182,9 @@ svg {
 
 .brand svg {
   flex: none;
-  width: 26px;
-  height: 26px;
-  color: var(--accent);
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(0 0 6px rgba(255, 31, 53, 0.35));
 }
 
 .brand-name {
